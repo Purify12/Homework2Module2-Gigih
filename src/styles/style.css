@@ -1,0 +1,114 @@
+body {
+    font-family: sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1615457938971-3ab61c1c0d57?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8eWVsbG93JTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+    margin: 0;
+  }
+  
+  .createplaylist {
+    width: 100%;
+    text-align: center;
+  }
+
+  .createplaylist h1{
+    color: azure;
+  }
+
+  .formcreate{
+    background-color: black;
+    padding: 3em;
+  }
+  
+  img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .input-title {
+    height: 40px;
+    width: 95%;
+    margin: 5px 0px 10px 0px;
+    padding-left: 20px;
+    border-radius: 30px;
+  }
+  
+  .input-desc {
+    height: 40px;
+    width: 95%;
+    margin: 5px 0px 10px 0px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 30px;
+  }
+  .form-label {
+    margin-left: 10px;
+  }
+  
+  .submit-button {
+    padding: 5px 40px;
+    color: white;
+    background-color: #72a3e4;
+    border: none;
+    font-size: 20px;
+    border-radius: 30px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .submit-button:hover {
+    background-color: #121a80;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .song-container {
+    margin: 30px auto;
+    width: 35%;
+    border: 2px solid white;
+    padding: 20px 0;
+    background-image: url("https://media.istockphoto.com/photos/nice-cloudless-empty-light-blue-sky-background-picture-id1132075043?b=1&k=20&m=1132075043&s=170667a&w=0&h=7Y0om2QfZ__y6ceAmGDqI4pVfLYf5eEeK0aWVkddB-g=");
+    border-radius: 10px;
+  }
+  
+  .song-container p,
+  h3 {
+    text-align: center;
+  }
+  
+  .title {
+    font-weight: bolder;
+    color: white;
+    margin-bottom: -12px;
+  }
+  
+  .artist {
+    color: gray;
+    font-weight: bold;
+  }
+  
+  .album {
+    color: white;
+    margin-bottom: -12px;
+  }
+
+  .year {
+    color: white;
+  }
+  
+  .button-play {
+    padding: 5px 40px;
+    color: white;
+    background-color: #bd7438;
+    border: none;
+    font-size: 20px;
+    border-radius: 30px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .button-play:hover {
+    background-color: #121a80;
+    font-size: 20px;
+    font-weight: bold;
+  }
